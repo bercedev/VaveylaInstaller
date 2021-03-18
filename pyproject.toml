@@ -1,0 +1,14 @@
+[tool]
+[tool.poetry]
+name = "VaveylaUserbot_Deployer"
+version = "1.0"
+description = "Automatic Deploy VaveylaUserBot to Heroku"
+authors = ["Berceste <t.me/bberc>"]
+[tool.poetry.dependencies]
+python = "^3.8"
+bs4 = "*"
+gitpython = "*"
+heroku3 = "*"
+requests = "*"
+rich = "*"
+telethon = "*"
