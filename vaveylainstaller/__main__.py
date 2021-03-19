@@ -106,7 +106,7 @@ if __name__ == "__main__":
 
     if os.path.isdir("./VaveylaUserBot/"):
         rm_r("./VaveylaUserBot/")
-    repo = Repo.clone_from(str1,"./VaveylaUserBot/", branch="master")
+    repo = Repo.clone_from(str1,"./VaveylaUserBot/", branch="main")
     basarili(LANG['DOWNLOADED'])
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
